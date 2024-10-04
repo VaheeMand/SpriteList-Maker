@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sprite List Maker</string>
+    <string name="import_images">Import Images</string>
+    <string name="export_sprite_list">Export Sprite List</string>
+    <string name="preview">Preview</string>
+    <string name="row_count">Row Count</string>
+    <string name="image_size">Image Size</string>
+</resources>

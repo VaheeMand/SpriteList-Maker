@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/importButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/import_images" />
+
+    <TextView
+        android:id="@+id/previewLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/preview"
+        android:layout_below="@id/importButton"
+        android:layout_marginTop="16dp"/>
+
+    <ImageView
+        android:id="@+id/previewImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/previewLabel"
+        android:layout_marginTop="8dp"
+        android:background="#CCCCCC"/>
+
+    <TextView
+        android:id="@+id/rowCountLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/row_count"
+        android:layout_below="@id/previewImageView"
+        android:layout_marginTop="16dp"/>
+
+    <SeekBar
+        android:id="@+id/rowCountSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:layout_below="@id/rowCountLabel"/>
+
+    <EditText
+        android:id="@+id/rowCountEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_toRightOf="@id/rowCountSeekBar"
+        android:layout_marginStart="8dp"/>
+
+    <TextView
+        android:id="@+id/imageSizeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/image_size"
+        android:layout_below="@id/rowCountSeekBar"
+        android:layout_marginTop="16dp"/>
+
+    <SeekBar
+        android:id="@+id/imageSizeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="1024"
+        android:layout_below="@id/imageSizeLabel"/>
+
+    <EditText
+        android:id="@+id/imageSizeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_toRightOf="@id/imageSizeSeekBar"
+        android:layout_marginStart="8dp"/>
+
+    <Button
+        android:id="@+id/exportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/export_sprite_list"
+        android:layout_below="@id/imageSizeSeekBar"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>
