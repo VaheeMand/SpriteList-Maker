@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Создатель спрайтлиста</string>
+    <string name="import_images">Импортировать Изображения</string>
+    <string name="export_sprite_list">Экспортировать Спрайтлист</string>
+    <string name="preview">Предпросмотр</string>
+    <string name="row_count">Количество Строк</string>
+    <string name="image_size">Размер Изображения</string>
+</resources>

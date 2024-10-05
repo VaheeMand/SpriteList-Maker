@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sprite-Liste-Ersteller</string>
+    <string name="import_images">Bilder importieren</string>
+    <string name="export_sprite_list">Sprite-Liste exportieren</string>
+    <string name="preview">Vorschau</string>
+    <string name="row_count">Zeilenanzahl</string>
+    <string name="image_size">Bildgröße</string>
+</resources>

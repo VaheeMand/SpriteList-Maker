@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Creador de listas de sprites</string>
+    <string name="import_images">Importar imágenes</string>
+    <string name="export_sprite_list">Exportar lista de sprites</string>
+    <string name="preview">Vista previa</string>
+    <string name="row_count">Cantidad de filas</string>
+    <string name="image_size">Tamaño de la imagen</string>
+</resources>

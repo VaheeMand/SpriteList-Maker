@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">スプライトリストメーカー</string>
+    <string name="import_images">画像をインポート</string>
+    <string name="export_sprite_list">スプライトリストをエクスポート</string>
+    <string name="preview">プレビュー</string>
+    <string name="row_count">行数</string>
+    <string name="image_size">画像サイズ</string>
+</resources>
