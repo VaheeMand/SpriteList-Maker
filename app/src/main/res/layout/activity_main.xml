@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:padding="16dp"
+     android:orientation="vertical">
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:id="@+id/importButton"
+         android:text="@string/import_images" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="16dp"
+         android:id="@+id/previewLabel"
+         android:text="@string/preview" />
+
+    <ImageView
+         android:layout_height="200dp"
+         android:layout_width="match_parent"
+         android:background="#CCCCCC"
+         android:layout_marginTop="8dp"
+         android:id="@+id/previewImageView" />
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="16dp"
+         android:id="@+id/rowCountLabel"
+         android:text="@string/row_count" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <EditText
+             android:layout_height="wrap_content"
+             android:layout_width="40dp"
+             android:layout_marginEnd="8dp"
+             android:inputType="number"
+             android:id="@+id/rowCountEditText"
+             android:text="0" />
+
+        <SeekBar
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:max="10"
+             android:layout_weight="1"
+             android:id="@+id/rowCountSeekBar" />
+
+    </LinearLayout>
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="16dp"
+         android:id="@+id/imageSizeLabel"
+         android:text="@string/image_size" />
+
+    <LinearLayout
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:orientation="horizontal">
+
+        <EditText
+             android:layout_height="wrap_content"
+             android:layout_width="40dp"
+             android:layout_marginEnd="8dp"
+             android:inputType="number"
+             android:id="@+id/imageSizeEditText"
+             android:text="0" />
+
+        <SeekBar
+             android:layout_height="wrap_content"
+             android:layout_width="0dp"
+             android:max="1024"
+             android:layout_weight="1"
+             android:id="@+id/imageSizeSeekBar" />
+
+    </LinearLayout>
+
+    <Button
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_marginTop="16dp"
+         android:id="@+id/exportButton"
+         android:text="@string/export_sprite_list" />
+
+</LinearLayout>

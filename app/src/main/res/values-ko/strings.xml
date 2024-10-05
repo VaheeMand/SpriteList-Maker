@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">스프라이트 목록 생성기</string>
+    <string name="import_images">이미지 가져오기</string>
+    <string name="export_sprite_list">스프라이트 목록 내보내기</string>
+    <string name="preview">미리 보기</string>
+    <string name="row_count">행 수</string>
+    <string name="image_size">이미지 크기</string>
+</resources>

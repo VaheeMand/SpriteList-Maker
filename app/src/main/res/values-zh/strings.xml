@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">精灵列表生成器</string>
+    <string name="import_images">导入图像</string>
+    <string name="export_sprite_list">导出精灵列表</string>
+    <string name="preview">预览</string>
+    <string name="row_count">行数</string>
+    <string name="image_size">图像大小</string>
+</resources>

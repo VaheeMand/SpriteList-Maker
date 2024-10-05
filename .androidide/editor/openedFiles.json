@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Spritelist-maker/app/src/main/java/com/vaheemand/spritelistmaker/MainActivity.kt",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 8406,
+          "line": 222
+        },
+        "start": {
+          "column": 1,
+          "index": 8406,
+          "line": 222
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Spritelist-maker/app/src/main/java/com/vaheemand/spritelistmaker/MainActivity.kt"
+}
