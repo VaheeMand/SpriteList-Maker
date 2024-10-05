@@ -1,0 +1,1 @@
+SpriteList Maker is a simple, user-friendly, open-source tool for game developers. Create sprite sheets for animations. Simply import animation frames, set parameters, and get a ready-to-use sprite sheet.
