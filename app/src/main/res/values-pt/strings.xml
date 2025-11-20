@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Criador de Lista de Sprites</string>
-    <string name="import_images">Importar Imagens</string>
-    <string name="export_sprite_list">Exportar Lista de Sprites</string>
-    <string name="preview">Pré-visualização</string>
-    <string name="row_count">Contagem de Linhas</string>
-    <string name="image_size">Tamanho da Imagem</string>
+    <string name="import_images">Importar imagens</string>
+    <string name="export_sprite_list">Exportar lista de sprites</string>
+    <string name="preview">Prévia</string>
+    <string name="row_count">Número de linhas</string>
+    <string name="image_size">Tamanho da imagem</string>
+    <string name="image_width">Largura da imagem</string>
+    <string name="image_height">Altura da imagem</string>
+    <string name="quality_scale">Escala de qualidade</string>
+    <string name="use_custom_quality">Usar qualidade personalizada</string>
+    <string name="custom_quality_hint">Valor personalizado (0.1 - 4.0)</string>
+    <string name="maintain_aspect_ratio">Manter proporção</string>
+    <string name="scale_mode">Modo de escala</string>
+    <string name="stretch_mode">Esticar</string>
+    <string name="fit_mode">Ajustar</string>
+    <string name="crop_mode">Cortar</string>
+    <string name="custom_ratio_mode">Proporção personalizada</string>
+    <string name="no_images_loaded">Nenhuma imagem carregada</string>
+    <string name="loaded_images_count">%d imagens carregadas</string>
+    <string name="preview_generated">Prévia: %dx%d (%d imagens)</string>
+    <string name="error_memory_preview">Erro: Memória insuficiente para gerar prévia</string>
+    <string name="error_generating_preview">Erro ao gerar prévia: %s</string>
+    <string name="error_saving_sprite">Erro ao salvar lista: %s</string>
+    <string name="sprite_saved_success">Lista salva com sucesso</string>
+    <string name="sprite_saved_to_pictures">Lista salva em Imagens</string>
+    <string name="no_images_to_export">Nenhuma imagem para exportar</string>
+    <string name="error_saving_file">Erro ao salvar arquivo</string>
+    <string name="error_memory_save">Erro: Memória insuficiente para salvar</string>
+
+    <string name="quality_custom">Personalizado</string>
 </resources>

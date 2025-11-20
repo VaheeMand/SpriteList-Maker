@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Создатель спрайтлиста</string>
-    <string name="import_images">Импортировать Изображения</string>
-    <string name="export_sprite_list">Экспортировать Спрайтлист</string>
+    <string name="import_images">Импорт изображений</string>
+    <string name="export_sprite_list">Экспорт списка спрайтов</string>
     <string name="preview">Предпросмотр</string>
-    <string name="row_count">Количество Строк</string>
-    <string name="image_size">Размер Изображения</string>
+    <string name="row_count">Количество рядов</string>
+    <string name="image_size">Размер изображения</string>
+    <string name="image_width">Ширина изображения</string>
+    <string name="image_height">Высота изображения</string>
+    <string name="quality_scale">Масштаб качества</string>
+    <string name="use_custom_quality">Использовать своё качество</string>
+    <string name="custom_quality_hint">Кастомное значение (0.1–4.0)</string>
+    <string name="maintain_aspect_ratio">Сохранять пропорции</string>
+    <string name="scale_mode">Режим масштабирования</string>
+    <string name="stretch_mode">Растянуть</string>
+    <string name="fit_mode">Вписать</string>
+    <string name="crop_mode">Обрезать</string>
+    <string name="custom_ratio_mode">Свои пропорции</string>
+    <string name="no_images_loaded">Изображений нет</string>
+    <string name="loaded_images_count">Загружено %d изображений</string>
+    <string name="preview_generated">Превью: %dx%d (%d изображений)</string>
+    <string name="error_memory_preview">Ошибка: не хватает памяти для превью</string>
+    <string name="error_generating_preview">Ошибка превью: %s</string>
+    <string name="error_saving_sprite">Ошибка сохранения: %s</string>
+    <string name="sprite_saved_success">Список сохранён</string>
+    <string name="sprite_saved_to_pictures">Сохранено в «Изображения»</string>
+    <string name="no_images_to_export">Нет изображений для экспорта</string>
+    <string name="error_saving_file">Ошибка сохранения файла</string>
+    <string name="error_memory_save">Ошибка: не хватает памяти для сохранения</string>
+
+    <string name="quality_custom">Своё</string>
 </resources>

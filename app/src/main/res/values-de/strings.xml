@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Sprite-Liste-Ersteller</string>
     <string name="import_images">Bilder importieren</string>
     <string name="export_sprite_list">Sprite-Liste exportieren</string>
     <string name="preview">Vorschau</string>
     <string name="row_count">Zeilenanzahl</string>
     <string name="image_size">Bildgröße</string>
+    <string name="image_width">Bildbreite</string>
+    <string name="image_height">Bildhöhe</string>
+    <string name="quality_scale">Qualitätsskala</string>
+    <string name="use_custom_quality">Benutzerdefinierte Qualität verwenden</string>
+    <string name="custom_quality_hint">Benutzerdefinierter Qualitätswert (0.1 - 4.0)</string>
+    <string name="maintain_aspect_ratio">Seitenverhältnis beibehalten</string>
+    <string name="scale_mode">Skalierungsmodus</string>
+    <string name="stretch_mode">Strecken</string>
+    <string name="fit_mode">Anpassen</string>
+    <string name="crop_mode">Zuschneiden</string>
+    <string name="custom_ratio_mode">Benutzerdefiniertes Verhältnis</string>
+    <string name="no_images_loaded">Keine Bilder geladen</string>
+    <string name="loaded_images_count">%d Bilder geladen</string>
+    <string name="preview_generated">Vorschau: %dx%d (%d Bilder)</string>
+    <string name="error_memory_preview">Fehler: Nicht genug Speicher für Vorschau</string>
+    <string name="error_generating_preview">Fehler bei der Vorschau: %s</string>
+    <string name="error_saving_sprite">Fehler beim Speichern der Sprite-Liste: %s</string>
+    <string name="sprite_saved_success">Sprite-Liste erfolgreich gespeichert</string>
+    <string name="sprite_saved_to_pictures">Sprite-Liste in „Bilder“ gespeichert</string>
+    <string name="no_images_to_export">Keine Bilder zum Exportieren</string>
+    <string name="error_saving_file">Fehler beim Speichern der Datei</string>
+    <string name="error_memory_save">Fehler: Nicht genug Speicher zum Speichern</string>
+
+    <string name="quality_custom">Benutzerdefiniert</string>
 </resources>

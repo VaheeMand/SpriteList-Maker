@@ -6,4 +6,37 @@
     <string name="preview">Preview</string>
     <string name="row_count">Row Count</string>
     <string name="image_size">Image Size</string>
+    <string name="image_width">Image Width</string>
+    <string name="image_height">Image Height</string>
+    <string name="quality_scale">Quality Scale</string>
+    <string name="use_custom_quality">Use Custom Quality</string>
+    <string name="custom_quality_hint">Custom quality value (0.1 - 4.0)</string>
+    <string name="maintain_aspect_ratio">Maintain Aspect Ratio</string>
+    <string name="lock_aspect_ratio">1:1</string>
+    <string name="scale_mode">Scale Mode</string>
+    <string name="stretch_mode">Stretch</string>
+    <string name="fit_mode">Fit</string>
+    <string name="crop_mode">Crop</string>
+    <string name="custom_ratio_mode">Custom Ratio</string>
+    <string name="no_images_loaded">No images loaded</string>
+    <string name="loaded_images_count">Loaded %d images</string>
+    <string name="preview_generated">Preview: %dx%d (%d images)</string>
+    <string name="error_memory_preview">Error: Not enough memory to generate preview</string>
+    <string name="error_generating_preview">Error generating preview: %s</string>
+    <string name="error_saving_sprite">Error saving sprite list: %s</string>
+    <string name="sprite_saved_success">Sprite list saved successfully</string>
+    <string name="sprite_saved_to_pictures">Sprite list saved to Pictures</string>
+    <string name="no_images_to_export">No images to export</string>
+    <string name="error_saving_file">Error saving file</string>
+    <string name="error_memory_save">Error: Not enough memory to save sprite list</string>
+    
+    <!-- Quality presets -->
+    <string name="quality_x0_1">x0.1</string>
+    <string name="quality_x0_25">x0.25</string>
+    <string name="quality_x0_5">x0.5</string>
+    <string name="quality_x0_75">x0.75</string>
+    <string name="quality_x1_0">x1.0</string>
+    <string name="quality_x1_5">x1.5</string>
+    <string name="quality_x2_0">x2.0</string>
+    <string name="quality_custom">Custom</string>
 </resources>

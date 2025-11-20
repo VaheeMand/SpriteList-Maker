@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">スプライトリストメーカー</string>
     <string name="import_images">画像をインポート</string>
     <string name="export_sprite_list">スプライトリストをエクスポート</string>
     <string name="preview">プレビュー</string>
     <string name="row_count">行数</string>
     <string name="image_size">画像サイズ</string>
+    <string name="image_width">画像の幅</string>
+    <string name="image_height">画像の高さ</string>
+    <string name="quality_scale">品質スケール</string>
+    <string name="use_custom_quality">カスタム品質を使用</string>
+    <string name="custom_quality_hint">カスタム品質 (0.1 - 4.0)</string>
+    <string name="maintain_aspect_ratio">アスペクト比を維持</string>
+    <string name="scale_mode">スケールモード</string>
+    <string name="stretch_mode">ストレッチ</string>
+    <string name="fit_mode">フィット</string>
+    <string name="crop_mode">クロップ</string>
+    <string name="custom_ratio_mode">カスタム比率</string>
+    <string name="no_images_loaded">画像が読み込まれていません</string>
+    <string name="loaded_images_count">%d 個の画像を読み込みました</string>
+    <string name="preview_generated">プレビュー: %dx%d (%d 枚)</string>
+    <string name="error_memory_preview">エラー: メモリ不足でプレビューを生成できません</string>
+    <string name="error_generating_preview">プレビュー生成エラー: %s</string>
+    <string name="error_saving_sprite">スプライトリスト保存エラー: %s</string>
+    <string name="sprite_saved_success">スプライトリストを保存しました</string>
+    <string name="sprite_saved_to_pictures">スプライトリストを「Pictures」に保存しました</string>
+    <string name="no_images_to_export">エクスポートする画像がありません</string>
+    <string name="error_saving_file">ファイル保存エラー</string>
+    <string name="error_memory_save">エラー: メモリ不足で保存できません</string>
+
+    <string name="quality_custom">カスタム</string>
 </resources>
