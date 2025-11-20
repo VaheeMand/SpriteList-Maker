@@ -1,94 +1,206 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-     xmlns:android="http://schemas.android.com/apk/res/android"
-     android:layout_height="match_parent"
-     android:layout_width="match_parent"
-     android:padding="16dp"
-     android:orientation="vertical">
-
-    <Button
-         android:layout_height="wrap_content"
-         android:layout_width="wrap_content"
-         android:id="@+id/importButton"
-         android:text="@string/import_images" />
-
-    <TextView
-         android:layout_height="wrap_content"
-         android:layout_width="wrap_content"
-         android:layout_marginTop="16dp"
-         android:id="@+id/previewLabel"
-         android:text="@string/preview" />
-
-    <ImageView
-         android:layout_height="200dp"
-         android:layout_width="match_parent"
-         android:background="#CCCCCC"
-         android:layout_marginTop="8dp"
-         android:id="@+id/previewImageView" />
-
-    <TextView
-         android:layout_height="wrap_content"
-         android:layout_width="wrap_content"
-         android:layout_marginTop="16dp"
-         android:id="@+id/rowCountLabel"
-         android:text="@string/row_count" />
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
     <LinearLayout
-         android:layout_height="wrap_content"
-         android:layout_width="match_parent"
-         android:orientation="horizontal">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/importButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/statusTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/previewLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <ImageView
+            android:id="@+id/previewImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#CCCCCC"
+            android:layout_marginTop="8dp"
+            android:scaleType="centerInside" />
+
+        <!-- Row Count Controls -->
+        <TextView
+            android:id="@+id/rowCountLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/rowCountEditText"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:inputType="number" />
+
+            <SeekBar
+                android:id="@+id/rowCountSeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="20" />
+        </LinearLayout>
+
+        <!-- Image Width Controls -->
+        <TextView
+            android:id="@+id/imageWidthLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/imageWidthEditText"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:inputType="number" />
+
+            <SeekBar
+                android:id="@+id/imageWidthSeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="2048" />
+        </LinearLayout>
+
+        <!-- Image Height Controls -->
+        <TextView
+            android:id="@+id/imageHeightLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/imageHeightEditText"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:inputType="number" />
+
+            <SeekBar
+                android:id="@+id/imageHeightSeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="2048" />
+
+            <Button
+                android:id="@+id/lockAspectRatioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- Scale Mode -->
+        <TextView
+            android:id="@+id/scaleModeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/scaleModeSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <CheckBox
+            android:id="@+id/maintainAspectRatioCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:enabled="false" />
+
+        <!-- Quality Controls -->
+        <TextView
+            android:id="@+id/qualityLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/qualitySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/qualityEditText"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:inputType="numberDecimal" />
+
+            <SeekBar
+                android:id="@+id/qualitySeekBar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="200" />
+        </LinearLayout>
+
+        <!-- Custom Quality -->
+        <CheckBox
+            android:id="@+id/useCustomQualityCheckbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp" />
 
         <EditText
-             android:layout_height="wrap_content"
-             android:layout_width="40dp"
-             android:layout_marginEnd="8dp"
-             android:inputType="number"
-             android:id="@+id/rowCountEditText"
-             android:text="0" />
+            android:id="@+id/customQualityEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:enabled="false"
+            android:inputType="numberDecimal" />
 
-        <SeekBar
-             android:layout_height="wrap_content"
-             android:layout_width="0dp"
-             android:max="10"
-             android:layout_weight="1"
-             android:id="@+id/rowCountSeekBar" />
-
-    </LinearLayout>
-
-    <TextView
-         android:layout_height="wrap_content"
-         android:layout_width="wrap_content"
-         android:layout_marginTop="16dp"
-         android:id="@+id/imageSizeLabel"
-         android:text="@string/image_size" />
-
-    <LinearLayout
-         android:layout_height="wrap_content"
-         android:layout_width="match_parent"
-         android:orientation="horizontal">
-
-        <EditText
-             android:layout_height="wrap_content"
-             android:layout_width="40dp"
-             android:layout_marginEnd="8dp"
-             android:inputType="number"
-             android:id="@+id/imageSizeEditText"
-             android:text="0" />
-
-        <SeekBar
-             android:layout_height="wrap_content"
-             android:layout_width="0dp"
-             android:max="1024"
-             android:layout_weight="1"
-             android:id="@+id/imageSizeSeekBar" />
+        <Button
+            android:id="@+id/exportButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp" />
 
     </LinearLayout>
-
-    <Button
-         android:layout_height="wrap_content"
-         android:layout_width="wrap_content"
-         android:layout_marginTop="16dp"
-         android:id="@+id/exportButton"
-         android:text="@string/export_sprite_list" />
-
-</LinearLayout>
+</ScrollView>

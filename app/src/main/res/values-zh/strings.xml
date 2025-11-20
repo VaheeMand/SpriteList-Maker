@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">精灵列表生成器</string>
-    <string name="import_images">导入图像</string>
+    <string name="import_images">导入图片</string>
     <string name="export_sprite_list">导出精灵列表</string>
     <string name="preview">预览</string>
     <string name="row_count">行数</string>
-    <string name="image_size">图像大小</string>
+    <string name="image_size">图片大小</string>
+    <string name="image_width">图片宽度</string>
+    <string name="image_height">图片高度</string>
+    <string name="quality_scale">质量比例</string>
+    <string name="use_custom_quality">使用自定义质量</string>
+    <string name="custom_quality_hint">自定义质量值 (0.1 - 4.0)</string>
+    <string name="maintain_aspect_ratio">保持比例</string>
+    <string name="scale_mode">缩放模式</string>
+    <string name="stretch_mode">拉伸</string>
+    <string name="fit_mode">适应</string>
+    <string name="crop_mode">裁剪</string>
+    <string name="custom_ratio_mode">自定义比例</string>
+    <string name="no_images_loaded">未加载图片</string>
+    <string name="loaded_images_count">已加载 %d 张图片</string>
+    <string name="preview_generated">预览: %dx%d (%d 张)</string>
+    <string name="error_memory_preview">错误：内存不足，无法生成预览</string>
+    <string name="error_generating_preview">预览生成错误：%s</string>
+    <string name="error_saving_sprite">保存精灵列表错误：%s</string>
+    <string name="sprite_saved_success">精灵列表已保存</string>
+    <string name="sprite_saved_to_pictures">已保存到图片库</string>
+    <string name="no_images_to_export">没有可导出的图片</string>
+    <string name="error_saving_file">保存文件出错</string>
+    <string name="error_memory_save">错误：内存不足，无法保存</string>
+
+    <string name="quality_custom">自定义</string>
 </resources>

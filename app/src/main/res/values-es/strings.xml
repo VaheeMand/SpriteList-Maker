@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Creador de listas de sprites</string>
     <string name="import_images">Importar imágenes</string>
     <string name="export_sprite_list">Exportar lista de sprites</string>
     <string name="preview">Vista previa</string>
-    <string name="row_count">Cantidad de filas</string>
-    <string name="image_size">Tamaño de la imagen</string>
+    <string name="row_count">Número de filas</string>
+    <string name="image_size">Tamaño de imagen</string>
+    <string name="image_width">Ancho de imagen</string>
+    <string name="image_height">Altura de imagen</string>
+    <string name="quality_scale">Escala de calidad</string>
+    <string name="use_custom_quality">Usar calidad personalizada</string>
+    <string name="custom_quality_hint">Valor de calidad personalizada (0.1 - 4.0)</string>
+    <string name="maintain_aspect_ratio">Mantener proporción</string>
+    <string name="scale_mode">Modo de escala</string>
+    <string name="stretch_mode">Estirar</string>
+    <string name="fit_mode">Ajustar</string>
+    <string name="crop_mode">Recortar</string>
+    <string name="custom_ratio_mode">Proporción personalizada</string>
+    <string name="no_images_loaded">No hay imágenes cargadas</string>
+    <string name="loaded_images_count">%d imágenes cargadas</string>
+    <string name="preview_generated">Vista previa: %dx%d (%d imágenes)</string>
+    <string name="error_memory_preview">Error: No hay suficiente memoria para generar vista previa</string>
+    <string name="error_generating_preview">Error generando vista previa: %s</string>
+    <string name="error_saving_sprite">Error guardando lista de sprites: %s</string>
+    <string name="sprite_saved_success">Lista de sprites guardada</string>
+    <string name="sprite_saved_to_pictures">Lista de sprites guardada en Imágenes</string>
+    <string name="no_images_to_export">No hay imágenes para exportar</string>
+    <string name="error_saving_file">Error guardando archivo</string>
+    <string name="error_memory_save">Error: Memoria insuficiente para guardar la lista</string>
+
+    <string name="quality_custom">Personalizado</string>
 </resources>
