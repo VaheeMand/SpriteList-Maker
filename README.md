@@ -4,14 +4,14 @@ SpriteList-Maker is an Android application designed to generate a spritesheet fr
 
 ## Build From Source
 1. Clone the repository:
-   git clone https://github.com/VaheeMand/SpriteList-Maker.git
+   git clone https://github.com/oxqux/SpriteList-Maker.git
 2. Open the project in Android Studio.
 3. Ensure that the required Android SDK components are installed.
 4. Build and run the `app` module using the built-in Gradle tools.
 
 ## Usage (Recommended)
 Download the latest APK from the Releases page:  
-https://github.com/VaheeMand/SpriteList-Maker/releases
+https://github.com/oxqux/SpriteList-Maker/releases
 
 After installing the APK:
 - Launch the application.
